@@ -1,0 +1,15 @@
+name: BossBarControls
+version: '1.0-SNAPSHOT'
+main: rimon.bossBarControls.BossBarControls
+api-version: '1.21'
+authors: [Rimon]
+commands:
+  bossbar:
+    description: Starts a bossbar countdown to any command
+    aliases: bb
+    usage: /bossbar <seconds> <command>
+    permission: bossbarcontrols.use
+permissions:
+  bossbarcontrols.use:
+    description: Allows use of the bb command
+    default: op
